@@ -1,0 +1,35 @@
+INFO: [HLS 200-10] Running 'D:/Xilinx_2019/Vivado/2019.2/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'Jerem' on host 'desktop-tibt0ba' (Windows NT_amd64 version 6.2) on Mon Jun 07 18:46:08 +0000 2021
+INFO: [HLS 200-10] In directory 'D:/DESKTOP/Integrated/lab4'
+Sourcing Tcl script 'D:/DESKTOP/Integrated/lab4/lab4/solution1/export.tcl'
+INFO: [HLS 200-10] Opening project 'D:/DESKTOP/Integrated/lab4/lab4'.
+INFO: [HLS 200-10] Opening solution 'D:/DESKTOP/Integrated/lab4/lab4/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx_2019/Vivado/2019.2/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'sobel_accel_ap_dadd_3_full_dsp_64' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'sobel_accel_ap_dadd_3_full_dsp_64'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'sobel_accel_ap_dadd_3_full_dsp_64'...
+WARNING: [IP_Flow 19-4832] The IP name 'sobel_accel_ap_dmul_4_max_dsp_64' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'sobel_accel_ap_dmul_4_max_dsp_64'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'sobel_accel_ap_dmul_4_max_dsp_64'...
+WARNING: [IP_Flow 19-4832] The IP name 'sobel_accel_ap_sitodp_4_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'sobel_accel_ap_sitodp_4_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'sobel_accel_ap_sitodp_4_no_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'sobel_accel_ap_uitodp_4_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'sobel_accel_ap_uitodp_4_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'sobel_accel_ap_uitodp_4_no_dsp_32'...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx_2019/Vivado/2019.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  7 18:46:35 2021...

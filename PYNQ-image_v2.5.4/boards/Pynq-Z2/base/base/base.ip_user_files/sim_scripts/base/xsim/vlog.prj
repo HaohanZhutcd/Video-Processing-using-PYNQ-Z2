@@ -1,0 +1,104 @@
+verilog xil_defaultlib --include "../../../../base.srcs/sources_1/bd/base/ipshared/ec67/hdl" --include "../../../../base.srcs/sources_1/bd/base/ipshared/2d50/hdl" --include "../../../../base.srcs/sources_1/bd/base/ip/base_processing_system7_0_0" --include "../../../../base.srcs/sources_1/bd/base/ipshared/798b/hdl" --include "../../../../base.srcs/sources_1/bd/base/ipshared/1ddd/hdl/verilog" --include "../../../../base.srcs/sources_1/bd/base/ipshared/b2d0/hdl/verilog" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_processing_system7_0_0/sim/base_processing_system7_0_0.v" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_xlconcat_1_0/sim/base_xlconcat_1_0.v" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_xbar_11/sim/base_xbar_11.v" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_auto_pc_12/sim/base_auto_pc_12.v" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_s00_mmu_0/sim/base_s00_mmu_0.v" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_0/sim/bd_b441_one_0.v" \
+
+sv xil_defaultlib --include "../../../../base.srcs/sources_1/bd/base/ipshared/ec67/hdl" --include "../../../../base.srcs/sources_1/bd/base/ipshared/2d50/hdl" --include "../../../../base.srcs/sources_1/bd/base/ip/base_processing_system7_0_0" --include "../../../../base.srcs/sources_1/bd/base/ipshared/798b/hdl" --include "../../../../base.srcs/sources_1/bd/base/ipshared/1ddd/hdl/verilog" --include "../../../../base.srcs/sources_1/bd/base/ipshared/b2d0/hdl/verilog" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_2/sim/bd_b441_arsw_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_3/sim/bd_b441_rsw_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_4/sim/bd_b441_awsw_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_5/sim/bd_b441_wsw_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_6/sim/bd_b441_bsw_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_7/sim/bd_b441_s00mmu_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_8/sim/bd_b441_s00tr_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_9/sim/bd_b441_s00sic_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_10/sim/bd_b441_s00a2s_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_11/sim/bd_b441_sarn_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_12/sim/bd_b441_srn_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_13/sim/bd_b441_s01mmu_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_14/sim/bd_b441_s01tr_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_15/sim/bd_b441_s01sic_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_16/sim/bd_b441_s01a2s_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_17/sim/bd_b441_sawn_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_18/sim/bd_b441_swn_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_19/sim/bd_b441_sbn_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_20/sim/bd_b441_s02mmu_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_21/sim/bd_b441_s02tr_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_22/sim/bd_b441_s02sic_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_23/sim/bd_b441_s02a2s_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_24/sim/bd_b441_sarn_1.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_25/sim/bd_b441_srn_1.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_26/sim/bd_b441_s03mmu_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_27/sim/bd_b441_s03tr_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_28/sim/bd_b441_s03sic_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_29/sim/bd_b441_s03a2s_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_30/sim/bd_b441_sawn_1.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_31/sim/bd_b441_swn_1.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_32/sim/bd_b441_sbn_1.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_33/sim/bd_b441_m00s2a_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_34/sim/bd_b441_m00arn_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_35/sim/bd_b441_m00rn_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_36/sim/bd_b441_m00awn_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_37/sim/bd_b441_m00wn_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_38/sim/bd_b441_m00bn_0.sv" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/ip/ip_39/sim/bd_b441_m00e_0.sv" \
+
+verilog xil_defaultlib --include "../../../../base.srcs/sources_1/bd/base/ipshared/ec67/hdl" --include "../../../../base.srcs/sources_1/bd/base/ipshared/2d50/hdl" --include "../../../../base.srcs/sources_1/bd/base/ip/base_processing_system7_0_0" --include "../../../../base.srcs/sources_1/bd/base/ipshared/798b/hdl" --include "../../../../base.srcs/sources_1/bd/base/ipshared/1ddd/hdl/verilog" --include "../../../../base.srcs/sources_1/bd/base/ipshared/b2d0/hdl/verilog" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/bd_0/sim/bd_b441.v" \
+"../../../../base.srcs/sources_1/bd/base/ip/base_smartconnect_0_0/sim/base_smartconnect_0_0.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/AddWeighted.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/AXIvideo2Mat.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/Block_proc.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/ConvertScaleAbs.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/ConvertScaleAbs273.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/CvtColor.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/CvtColor_1.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/Duplicate.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/fifo_w8_d2_A.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/fifo_w12_d2_A.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/fifo_w12_d8_A.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/fifo_w16_d2_A.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/Filter2D.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/Filter2D_1.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/Filter2D_1_k_buf_eOg.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/GaussianBlur.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/Mat2AXIvideo.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/regslice_core.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/Sobel.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/Sobel_1.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel_ama_akbM.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel_CONTROL_BUS_s_axi.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel_dadd_udo.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel_dmul_vdy.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel_mac_mcud.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel_mac_mdEe.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel_mac_mjbC.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel_mac_mlbW.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel_mac_mpcA.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel_mac_mqcK.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel_mac_mrcU.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel_mac_msc4.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel_mul_mbkb.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel_mul_mibs.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel_mux_3hbi.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel_sitodtde.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel_uitodwdI.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/start_for_AddWeigxdS.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/start_for_ConvertCeG.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/start_for_ConvertDeQ.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/start_for_CvtColoEe0.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/start_for_CvtColoyd2.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/start_for_DuplicaAem.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/start_for_Gaussiazec.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/start_for_Mat2AXIFfa.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/start_for_Sobel_1Bew.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/start_for_Sobel_U0.v" \
+"../../../../base.srcs/sources_1/bd/base/ipshared/07e3/hdl/verilog/sobel_accel.v" \
+"../../../../base.srcs/sources_1/bd/base/sim/base.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

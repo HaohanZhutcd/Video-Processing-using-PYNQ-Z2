@@ -1,0 +1,291 @@
+
+
+================================================================
+== Vivado HLS Report for 'ConvertScaleAbs273'
+================================================================
+* Date:           Wed Dec  7 18:36:45 2022
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        lab4
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 8.151 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+---------+---------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |      Interval     | Pipeline|
+    |   min   |   max   |    min    |    max    |   min   |   max   |   Type  |
+    +---------+---------+-----------+-----------+---------+---------+---------+
+    |  2087641|  2087641| 20.876 ms | 20.876 ms |  2087641|  2087641|   none  |
+    +---------+---------+-----------+-----------+---------+---------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +---------------+---------+---------+----------+-----------+-----------+------+----------+
+        |               |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |   Loop Name   |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +---------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- loop_height  |  2087640|  2087640|      1933|          -|          -|  1080|    no    |
+        | + loop_width  |     1930|     1930|        12|          1|          1|  1920|    yes   |
+        +---------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+-----+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  | URAM|
++-----------------+---------+-------+--------+-------+-----+
+|DSP              |        -|      -|       -|      -|    -|
+|Expression       |        -|      -|       0|   1228|    -|
+|FIFO             |        -|      -|       -|      -|    -|
+|Instance         |        -|      0|     412|    645|    -|
+|Memory           |        -|      -|       -|      -|    -|
+|Multiplexer      |        -|      -|       -|     90|    -|
+|Register         |        0|      -|     555|     96|    -|
++-----------------+---------+-------+--------+-------+-----+
+|Total            |        0|      0|     967|   2059|    0|
++-----------------+---------+-------+--------+-------+-----+
+|Available        |      280|    220|  106400|  53200|    0|
++-----------------+---------+-------+--------+-------+-----+
+|Utilization (%)  |        0|      0|   ~0   |      3|    0|
++-----------------+---------+-------+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +--------------------------+----------------------+---------+-------+-----+-----+-----+
+    |         Instance         |        Module        | BRAM_18K| DSP48E|  FF | LUT | URAM|
+    +--------------------------+----------------------+---------+-------+-----+-----+-----+
+    |sobel_accel_sitodtde_U81  |sobel_accel_sitodtde  |        0|      0|  412|  645|    0|
+    +--------------------------+----------------------+---------+-------+-----+-----+-----+
+    |Total                     |                      |        0|      0|  412|  645|    0|
+    +--------------------------+----------------------+---------+-------+-----+-----+-----+
+
+    * DSP48E: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +------------------------------------+----------+-------+---+-----+------------+------------+
+    |            Variable Name           | Operation| DSP48E| FF| LUT | Bitwidth P0| Bitwidth P1|
+    +------------------------------------+----------+-------+---+-----+------------+------------+
+    |add_ln591_fu_342_p2                 |     +    |      0|  0|   12|           2|          12|
+    |i_fu_180_p2                         |     +    |      0|  0|   13|          11|           1|
+    |j_fu_192_p2                         |     +    |      0|  0|   13|          11|           1|
+    |p_Val2_15_fu_379_p2                 |     +    |      0|  0|   15|           8|           8|
+    |pos1_fu_442_p2                      |     +    |      0|  0|   12|           4|          12|
+    |pos2_fu_451_p2                      |     +    |      0|  0|   12|           4|          12|
+    |F2_fu_239_p2                        |     -    |      0|  0|   12|          11|          12|
+    |sub_ln581_fu_251_p2                 |     -    |      0|  0|   12|           1|          12|
+    |Range1_all_ones_1_fu_500_p2         |    and   |      0|  0|    2|           1|           1|
+    |Range1_all_ones_fu_647_p2           |    and   |      0|  0|    2|           1|           1|
+    |and_ln403_1_fu_585_p2               |    and   |      0|  0|    2|           1|           1|
+    |and_ln403_fu_409_p2                 |    and   |      0|  0|    2|           1|           1|
+    |and_ln428_1_fu_727_p2               |    and   |      0|  0|    2|           1|           1|
+    |and_ln428_fu_700_p2                 |    and   |      0|  0|    2|           1|           1|
+    |and_ln571_fu_737_p2                 |    and   |      0|  0|    2|           1|           1|
+    |and_ln581_fu_404_p2                 |    and   |      0|  0|    2|           1|           1|
+    |and_ln603_1_fu_430_p2               |    and   |      0|  0|    2|           1|           1|
+    |and_ln603_2_fu_436_p2               |    and   |      0|  0|    2|           1|           1|
+    |and_ln603_fu_602_p2                 |    and   |      0|  0|    2|           1|           1|
+    |and_ln621_fu_494_p2                 |    and   |      0|  0|    2|           1|           1|
+    |and_ln631_fu_620_p2                 |    and   |      0|  0|    2|           1|           1|
+    |and_ln639_fu_643_p2                 |    and   |      0|  0|    2|           1|           1|
+    |and_ln641_fu_662_p2                 |    and   |      0|  0|    2|           1|           1|
+    |and_ln642_fu_554_p2                 |    and   |      0|  0|    2|           1|           1|
+    |ap_block_state14_pp0_stage0_iter11  |    and   |      0|  0|    2|           1|           1|
+    |ap_block_state4_pp0_stage0_iter1    |    and   |      0|  0|    2|           1|           1|
+    |ashr_ln586_fu_320_p2                |   ashr   |      0|  0|  162|          54|          54|
+    |ashr_ln623_fu_484_p2                |   ashr   |      0|  0|  162|          54|          54|
+    |Range1_all_zeros_1_fu_536_p2        |   icmp   |      0|  0|   29|          54|           1|
+    |Range2_all_ones_fu_630_p2           |   icmp   |      0|  0|   29|          54|          54|
+    |icmp_ln2526_fu_174_p2               |   icmp   |      0|  0|   13|          11|          11|
+    |icmp_ln2527_fu_186_p2               |   icmp   |      0|  0|   13|          11|           9|
+    |icmp_ln571_fu_233_p2                |   icmp   |      0|  0|   29|          63|           1|
+    |icmp_ln581_fu_245_p2                |   icmp   |      0|  0|   13|          12|           1|
+    |icmp_ln582_fu_265_p2                |   icmp   |      0|  0|   13|          11|          11|
+    |icmp_ln585_fu_275_p2                |   icmp   |      0|  0|   13|          12|           6|
+    |icmp_ln591_fu_337_p2                |   icmp   |      0|  0|   13|          12|           6|
+    |icmp_ln603_fu_291_p2                |   icmp   |      0|  0|   13|           9|           1|
+    |icmp_ln621_fu_460_p2                |   icmp   |      0|  0|   13|          12|           6|
+    |icmp_ln631_fu_514_p2                |   icmp   |      0|  0|   13|          12|           6|
+    |icmp_ln641_fu_652_p2                |   icmp   |      0|  0|   29|          54|           1|
+    |icmp_ln642_fu_530_p2                |   icmp   |      0|  0|   13|          12|           6|
+    |icmp_ln833_fu_223_p2                |   icmp   |      0|  0|   13|          11|           2|
+    |icmp_ln837_fu_297_p2                |   icmp   |      0|  0|   29|          52|           1|
+    |Range2_V_1_fu_524_p2                |   lshr   |      0|  0|  162|          54|          54|
+    |r_V_fu_625_p2                       |   lshr   |      0|  0|  162|           2|          54|
+    |ap_block_pp0_stage0_01001           |    or    |      0|  0|    2|           1|           1|
+    |ap_block_state1                     |    or    |      0|  0|    2|           1|           1|
+    |or_ln571_1_fu_755_p2                |    or    |      0|  0|    2|           1|           1|
+    |or_ln571_fu_742_p2                  |    or    |      0|  0|    2|           1|           1|
+    |or_ln581_fu_415_p2                  |    or    |      0|  0|    2|           1|           1|
+    |or_ln603_fu_424_p2                  |    or    |      0|  0|    2|           1|           1|
+    |or_ln639_fu_548_p2                  |    or    |      0|  0|    2|           1|           1|
+    |or_ln645_fu_668_p2                  |    or    |      0|  0|    2|           1|           1|
+    |or_ln658_fu_714_p2                  |    or    |      0|  0|    2|           1|           1|
+    |F2_2_fu_257_p3                      |  select  |      0|  0|   12|           1|          12|
+    |deleted_zeros_fu_704_p3             |  select  |      0|  0|    2|           1|           1|
+    |p_Val2_14_fu_330_p3                 |  select  |      0|  0|    8|           1|           8|
+    |p_Val2_16_fu_607_p3                 |  select  |      0|  0|    8|           1|           8|
+    |p_dst_data_stream_V_din             |  select  |      0|  0|    8|           1|           8|
+    |qb_fu_359_p3                        |  select  |      0|  0|    2|           1|           1|
+    |select_ln340_fu_720_p3              |  select  |      0|  0|    8|           1|           8|
+    |select_ln403_1_fu_590_p3            |  select  |      0|  0|    8|           1|           8|
+    |select_ln403_fu_574_p3              |  select  |      0|  0|    8|           1|           8|
+    |select_ln571_fu_748_p3              |  select  |      0|  0|    8|           1|           1|
+    |select_ln582_fu_568_p3              |  select  |      0|  0|    8|           1|           8|
+    |select_ln631_fu_635_p3              |  select  |      0|  0|    2|           1|           1|
+    |select_ln639_1_fu_692_p3            |  select  |      0|  0|    2|           1|           1|
+    |select_ln639_fu_677_p3              |  select  |      0|  0|    2|           1|           1|
+    |select_ln642_1_fu_685_p3            |  select  |      0|  0|    2|           1|           1|
+    |select_ln642_fu_672_p3              |  select  |      0|  0|    2|           1|           1|
+    |shl_ln604_fu_563_p2                 |    shl   |      0|  0|   19|           8|           8|
+    |Range1_all_zeros_fu_657_p2          |    xor   |      0|  0|    2|           2|           1|
+    |ap_enable_pp0                       |    xor   |      0|  0|    2|           1|           2|
+    |ap_enable_reg_pp0_iter1             |    xor   |      0|  0|    2|           2|           1|
+    |xor_ln403_fu_580_p2                 |    xor   |      0|  0|    2|           1|           2|
+    |xor_ln416_fu_393_p2                 |    xor   |      0|  0|    2|           1|           2|
+    |xor_ln428_fu_731_p2                 |    xor   |      0|  0|    2|           2|           1|
+    |xor_ln571_fu_760_p2                 |    xor   |      0|  0|    2|           1|           2|
+    |xor_ln581_fu_597_p2                 |    xor   |      0|  0|    2|           1|           2|
+    |xor_ln582_fu_399_p2                 |    xor   |      0|  0|    2|           1|           2|
+    |xor_ln603_fu_419_p2                 |    xor   |      0|  0|    2|           1|           2|
+    |xor_ln621_1_fu_474_p2               |    xor   |      0|  0|    2|           1|           2|
+    |xor_ln621_fu_709_p2                 |    xor   |      0|  0|    2|           1|           2|
+    |xor_ln631_fu_615_p2                 |    xor   |      0|  0|    2|           1|           2|
+    |xor_ln639_1_fu_542_p2               |    xor   |      0|  0|    2|           1|           2|
+    +------------------------------------+----------+-------+---+-----+------------+------------+
+    |Total                               |          |      0|  0| 1228|         686|         545|
+    +------------------------------------+----------+-------+---+-----+------------+------------+
+
+    * Multiplexer: 
+    +---------------------------+----+-----------+-----+-----------+
+    |            Name           | LUT| Input Size| Bits| Total Bits|
+    +---------------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm                  |  27|          5|    1|          5|
+    |ap_done                    |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter1    |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter11   |   9|          2|    1|          2|
+    |i_0_reg_149                |   9|          2|   11|         22|
+    |j_0_reg_160                |   9|          2|   11|         22|
+    |p_dst_data_stream_V_blk_n  |   9|          2|    1|          2|
+    |p_src_data_stream_V_blk_n  |   9|          2|    1|          2|
+    +---------------------------+----+-----------+-----+-----------+
+    |Total                      |  90|         19|   28|         59|
+    +---------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +------------------------------------+----+----+-----+-----------+
+    |                Name                | FF | LUT| Bits| Const Bits|
+    +------------------------------------+----+----+-----+-----------+
+    |F2_2_reg_840                        |  12|   0|   12|          0|
+    |F2_2_reg_840_pp0_iter9_reg          |  12|   0|   12|          0|
+    |F2_reg_826                          |  12|   0|   12|          0|
+    |Range1_all_ones_1_reg_919           |   1|   0|    1|          0|
+    |Range1_all_zeros_1_reg_948          |   1|   0|    1|          0|
+    |Range2_V_1_reg_942                  |  54|   0|   54|          0|
+    |and_ln403_reg_892                   |   1|   0|    1|          0|
+    |and_ln581_reg_887                   |   1|   0|    1|          0|
+    |and_ln603_2_reg_902                 |   1|   0|    1|          0|
+    |and_ln603_2_reg_902_pp0_iter10_reg  |   1|   0|    1|          0|
+    |and_ln642_reg_953                   |   1|   0|    1|          0|
+    |ap_CS_fsm                           |   4|   0|    4|          0|
+    |ap_done_reg                         |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter0             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter10            |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter11            |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter2             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter3             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter4             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter5             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter6             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter7             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter8             |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter9             |   1|   0|    1|          0|
+    |i_0_reg_149                         |  11|   0|   11|          0|
+    |i_reg_779                           |  11|   0|   11|          0|
+    |icmp_ln2527_reg_784                 |   1|   0|    1|          0|
+    |icmp_ln571_reg_820                  |   1|   0|    1|          0|
+    |icmp_ln581_reg_834                  |   1|   0|    1|          0|
+    |icmp_ln582_reg_846                  |   1|   0|    1|          0|
+    |icmp_ln582_reg_846_pp0_iter9_reg    |   1|   0|    1|          0|
+    |icmp_ln585_reg_859                  |   1|   0|    1|          0|
+    |icmp_ln603_reg_864                  |   1|   0|    1|          0|
+    |icmp_ln603_reg_864_pp0_iter9_reg    |   1|   0|    1|          0|
+    |icmp_ln621_reg_907                  |   1|   0|    1|          0|
+    |icmp_ln621_reg_907_pp0_iter10_reg   |   1|   0|    1|          0|
+    |icmp_ln631_reg_931                  |   1|   0|    1|          0|
+    |icmp_ln833_reg_814                  |   1|   0|    1|          0|
+    |icmp_ln837_reg_870                  |   1|   0|    1|          0|
+    |icmp_ln837_reg_870_pp0_iter10_reg   |   1|   0|    1|          0|
+    |j_0_reg_160                         |  11|   0|   11|          0|
+    |or_ln581_reg_897                    |   1|   0|    1|          0|
+    |p_Result_7_reg_876                  |   1|   0|    1|          0|
+    |p_Val2_15_reg_881                   |   8|   0|    8|          0|
+    |p_Val2_16_reg_959                   |   8|   0|    8|          0|
+    |select_ln639_1_reg_970              |   1|   0|    1|          0|
+    |select_ln639_reg_965                |   1|   0|    1|          0|
+    |tmp_54_reg_926                      |   1|   0|    1|          0|
+    |tmp_V_3_reg_808                     |  52|   0|   52|          0|
+    |tmp_reg_793                         |  16|   0|   16|          0|
+    |trunc_ln583_reg_853                 |   8|   0|    8|          0|
+    |trunc_ln583_reg_853_pp0_iter9_reg   |   8|   0|    8|          0|
+    |x_assign_reg_803                    |  64|   0|   64|          0|
+    |xor_ln621_1_reg_912                 |   1|   0|    1|          0|
+    |zext_ln635_reg_937                  |  32|   0|   54|         22|
+    |icmp_ln2527_reg_784                 |  64|  32|    1|          0|
+    |icmp_ln571_reg_820                  |  64|  32|    1|          0|
+    |icmp_ln833_reg_814                  |  64|  32|    1|          0|
+    +------------------------------------+----+----+-----+-----------+
+    |Total                               | 555|  96|  388|         22|
+    +------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------------+-----+-----+------------+---------------------+--------------+
+|          RTL Ports          | Dir | Bits|  Protocol  |    Source Object    |    C Type    |
++-----------------------------+-----+-----+------------+---------------------+--------------+
+|ap_clk                       |  in |    1| ap_ctrl_hs |  ConvertScaleAbs273 | return value |
+|ap_rst                       |  in |    1| ap_ctrl_hs |  ConvertScaleAbs273 | return value |
+|ap_start                     |  in |    1| ap_ctrl_hs |  ConvertScaleAbs273 | return value |
+|ap_done                      | out |    1| ap_ctrl_hs |  ConvertScaleAbs273 | return value |
+|ap_continue                  |  in |    1| ap_ctrl_hs |  ConvertScaleAbs273 | return value |
+|ap_idle                      | out |    1| ap_ctrl_hs |  ConvertScaleAbs273 | return value |
+|ap_ready                     | out |    1| ap_ctrl_hs |  ConvertScaleAbs273 | return value |
+|p_src_data_stream_V_dout     |  in |   16|   ap_fifo  | p_src_data_stream_V |    pointer   |
+|p_src_data_stream_V_empty_n  |  in |    1|   ap_fifo  | p_src_data_stream_V |    pointer   |
+|p_src_data_stream_V_read     | out |    1|   ap_fifo  | p_src_data_stream_V |    pointer   |
+|p_dst_data_stream_V_din      | out |    8|   ap_fifo  | p_dst_data_stream_V |    pointer   |
+|p_dst_data_stream_V_full_n   |  in |    1|   ap_fifo  | p_dst_data_stream_V |    pointer   |
+|p_dst_data_stream_V_write    | out |    1|   ap_fifo  | p_dst_data_stream_V |    pointer   |
++-----------------------------+-----+-----+------------+---------------------+--------------+
+

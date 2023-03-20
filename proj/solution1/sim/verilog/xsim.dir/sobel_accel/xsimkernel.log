@@ -1,0 +1,4 @@
+Running: xsim.dir/sobel_accel/xsimk.exe -simmode gui -wdb sobel_accel.wdb -simrunnum 0 -socket 1195
+Design successfully loaded
+Design Loading Memory Usage: 56692 KB (Peak: 56692 KB)
+Design Loading CPU Usage: 139 ms
